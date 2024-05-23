@@ -1,0 +1,179 @@
+/* globals */
+html {
+    background-color: whitesmoke;
+}
+
+body {
+    margin: 0px;
+    font-family: tahoma, Geneva, sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    min-width: 960px;
+    font-size: 1.1em;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+h1,h2{text-align:center;}
+
+/* Navigation Styling */
+nav {
+    font-weight: bold;
+    background-color: #40514e;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/* Link Styling */
+a {
+    color: white;
+    text-decoration: none;
+    width: 0px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 1s;
+    transition-timing-function: linear;
+}
+
+a:hover {
+    background-color: #11999e;
+}
+
+/* Content Layout */
+.column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Image Styling */
+.pictures {
+    width: 100%;
+    height: auto;
+    border: solid 1px #11999e;
+    border-radius: 100px;
+}
+
+.menupic {
+    width: 70%;
+    height: auto;
+    border: solid 1px #11999e;
+    border-radius: 10%;
+}
+
+#logo {
+    height: 350px;
+    width: 100%;
+}
+
+/* Heading Styling */
+h1 {
+    font-weight: bolder;
+    color: #11999e;
+    letter-spacing: 0.5px;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1.3em;
+    background-color: #40514e;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Table Styling */
+.table1 {
+    -webkit-transform: translate(25px, 25px);
+    border: 2px solid #40514e;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.table1:hover {
+    scale: 1.2;
+    translate: 20px;
+}
+
+td {
+    border: solid 1px #40514e;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    font-style: oblique;
+    font-size: large;
+}
+
+th {
+    color: white;
+    background-color: #40514e;
+    font-size: 1.3em;
+}
+
+/* FAQ Styling */
+.qa-table {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.bold {
+    font-weight: 600px;
+    background-color: #11999e;
+    color: white;
+}
+
+.bold2 {
+    font-weight: 800;
+}
+
+#faqs {
+    width: 100%;
+}
+
+/* Footer Styling */
+footer td {
+    text-align: left;
+    font-size: 11px;
+}
+
+footer th {
+    font-size: medium;
+}
+
+footer tr:nth-child(even) {
+    background-color: #b8c5c6;
+}
+
+/* List Styling */
+ul {
+        
+ list-style-image:url(/1224679-200.png);
+ list-style-position: inside;
+}
