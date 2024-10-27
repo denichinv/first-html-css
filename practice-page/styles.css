@@ -1,0 +1,122 @@
+/* ------------------ Font Imports ------------------ */
+@font-face {
+    font-family: "Playwrite GB S", cursive;
+    src: ("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+}
+
+@font-face {
+    font-family: "Raleway", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+}
+
+
+/* ------------------ Body, Header, and Footer ------------------ */
+body {
+    margin: 0px;
+    font-family: "Playwrite GB S", cursive;
+    background-color: antiquewhite;
+    font-size: larger;
+    line-height: 1.8;
+    color: rgb(34, 1, 1);
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(212, 207, 207);
+    text-align: center;
+    height: 60px;
+    margin: 0px;
+}
+
+
+/* ------------------ Headings ------------------ */
+h1, h2 {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+
+/* ------------------ Navigation Bar ------------------ */
+nav {
+    position: fixed;
+    top: 0%;
+    background-color: rgb(212, 207, 207);
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    float: left;
+    padding: 5px 10px;
+    background-color: rgb(216, 57, 57);
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover, li:hover {
+    background-color: lightcoral;
+    color: rgb(34, 1, 1);
+}
+
+
+/* ------------------ Main Content Sections ------------------ */
+#section1, #section2, #section3, #table-section {
+    padding: 15px;
+    width: 90%;
+    max-width: 800px;
+    margin: 2% auto;
+    border: 5px solid rgb(216, 57, 57);
+    background-color: white;
+}
+section:hover{
+
+    border-radius: 30px;
+}
+
+#section1 img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    position: relative;
+    top: -90px;
+    z-index: 1;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ------------------ Table Content Sections ------------------ */
+ td,th{
+    
+    border: 1px solid rgb(34, 1, 1);
+    padding:  10px;
+}
+th{
+    background-color: whitesmoke;
+}
